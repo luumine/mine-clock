@@ -1,0 +1,4 @@
+name: Clock
+version: 1.0-SNAPSHOT
+main: mineluu.plugins.Plugins
+api-version: 1.13

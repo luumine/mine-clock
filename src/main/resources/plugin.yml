@@ -1,0 +1,4 @@
+name: Clock
+version: ${project.version}
+main: mineluu.plugins.Plugins
+api-version: 1.13
