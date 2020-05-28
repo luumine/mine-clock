@@ -21,7 +21,7 @@ public final class Plugins extends JavaPlugin {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (label.equals("czas")) {
+        if (command.getName().toLowerCase().equals("czas")) {
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm");
             LocalDateTime now = LocalDateTime.now();
             System.out.println(dtf.format(now));
